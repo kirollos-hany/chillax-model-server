@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  chillax_model_server:
+    container_name: chillax_model_server
+    build: .
+    image: chillax_model_server
+
+
+
